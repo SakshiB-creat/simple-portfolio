@@ -1,0 +1,303 @@
+@media  screen and (max-width: 991px) {
+    @media (max-width: 768px) {
+        .header {
+            flex-direction: column;
+            padding: 20px 10%;
+        }
+        .logo {
+            font-size: 22px;
+        }
+    
+        .navbar {
+            font-size: 16px;
+            gap: 1em;
+        }
+    
+        .navbar a {
+            padding: 8px 0;
+        }
+    
+        .home {
+            flex-direction: column;
+            padding: 30px 5%;
+        }
+    
+        .home-content h3 {
+            font-size: 32px;
+        }
+    
+        .home-content h1 {
+            font-size: 45px;
+        }
+    
+        .home-content p {
+            font-size: 16px;
+        }
+    
+        .btn-box {
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        .btn-1, .btn-2 {
+            width: 100%;
+            padding: 12px;
+        }
+    
+        .img-box img {
+            width: 250px;
+            margin-top: 20px;
+        }
+    
+        .about {
+            flex-direction: column;
+            padding: 10% 5%;
+            gap: 3em;
+        }
+    
+        .about-img img {
+            width: 300px;
+        }
+    
+        .about-content h2 {
+            font-size: 32px;
+        }
+    
+        .about-content h3 {
+            font-size: 45px;
+        }
+    
+        .social a {
+            font-size: 20px;
+        }
+    }
+    
+    /* Mobile and below (max-width: 480px) */
+    /* Mobile and below (max-width: 480px) */
+@media (max-width: 480px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar {
+        font-size: 14px;
+        gap: 0.8em;
+    }
+
+    .home {
+        padding: 15px 5%;
+        flex-direction: column;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content h1 {
+        font-size: 38px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .btn-1, .btn-2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img-box img {
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 8% 5%;
+        gap: 2em;
+    }
+
+    .about-img img {
+        width: 250px;
+    }
+
+    .about-content h2 {
+        font-size: 28px;
+    }
+
+    .about-content h3 {
+        font-size: 40px;
+    }
+
+    .social a {
+        font-size: 18px;
+    }
+
+    .contact {
+        margin-top: 15px;  
+    }
+
+@media screen and (max-width: 991px) {
+    /* Adjust for medium screens (tablets) */
+    .header {
+        flex-direction: column;
+        padding: 20px 10%;
+    }
+
+    /* Show hamburger on small screens */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Hide the navbar links by default for mobile */
+    .navbar {
+        display: none;
+        font-size: 16px;
+        gap: 1em;
+    }
+
+    /* Display navbar when hamburger is clicked */
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    /* Other styles for mobile screens */
+    .logo {
+        font-size: 22px;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 30px 5%;
+    }
+
+    .home-content h3 {
+        font-size: 32px;
+    }
+
+    .home-content h1 {
+        font-size: 45px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .btn-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-1, .btn-2 {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .img-box img {
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 10% 5%;
+        gap: 3em;
+    }
+
+    .about-img img {
+        width: 300px;
+    }
+
+    .about-content h2 {
+        font-size: 32px;
+    }
+
+    .about-content h3 {
+        font-size: 45px;
+    }
+
+    .social a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust for small screens (phones) */
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar {
+        font-size: 14px;
+        gap: 0.8em;
+    }
+
+    .home {
+        padding: 15px 5%;
+        flex-direction: column;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content h1 {
+        font-size: 38px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .btn-1, .btn-2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img-box img {
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 8% 5%;
+        gap: 2em;
+    }
+
+    .about-img img {
+        width: 250px;
+    }
+
+    .about-content h2 {
+        font-size: 28px;
+    }
+
+    .about-content h3 {
+        font-size: 40px;
+    }
+
+    .social a {
+        font-size: 18px;
+    }
+
+    .contact {
+        margin-top: 15px;
+    }
+}
+
+    
+}
+    
+}
